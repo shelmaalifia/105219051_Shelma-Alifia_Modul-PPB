@@ -43,7 +43,7 @@ public class KeranjangBelanjaActivity extends AppCompatActivity implements Keran
             tvKosong.setVisibility(View.GONE);
         }
 
-        String totalStr = "Total Belanja: " + IdrFormatter.format(OrderFotoUtil.getTotalHarga());
+        String totalStr = "Total Belanja: "+IdrFormatter.format(OrderFotoUtil.getTotalHarga());
         tvTotal.setText(totalStr);
     }
 }

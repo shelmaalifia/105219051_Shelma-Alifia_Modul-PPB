@@ -7,7 +7,7 @@ public class KatalogFotoUtil {
     private static int[] ridArray = {
             R.drawable.kucing1,
             R.drawable.kucing2,
-            R.drawable.kucing4,
+            R.drawable.kucing3,
             R.drawable.kucing4
 
     };

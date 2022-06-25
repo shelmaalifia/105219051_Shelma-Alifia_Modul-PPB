@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class KatalogFotoUtil {
+
+
     private static int[] ridArray = {
             R.drawable.kucing1,
             R.drawable.kucing2,
@@ -19,12 +21,13 @@ public class KatalogFotoUtil {
             "Kucing 4"
     };
 
+
     private static List<KatalogFoto> katalogFotoList;
 
     public static void init(){
         katalogFotoList = new ArrayList<>();
         int nArray = ridArray.length;
-        for(int i=0; i<nArray; i++){
+        for(int i=0;i<nArray;i++){
             katalogFotoList.add(new KatalogFoto(ridArray[i], filenameArray[i]));
         }
     }
